@@ -1,0 +1,12 @@
+{
+  "promptDelete": false,
+  "readableLineLength": false,
+  "showLineNumber": false,
+  "showUnsupportedFiles": true,
+  "spellcheck": false,
+  "userIgnoreFilters": [
+    ". ini",
+    "desktop.ini",
+    "desktop"
+  ]
+}

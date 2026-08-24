@@ -1,0 +1,27 @@
+.formulariostyle{
+    background-color: rgb(243, 243, 243);
+    padding: 30px;
+    border: 100px;
+
+}
+
+.campo{
+    background-color: rgb(226, 226, 226);
+    border: 100px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    max-width: 500px;
+    box-shadow:0 5px 20px;
+    padding: 20px;
+}
+
+.botones{
+    border: 100px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    
+
+}
+

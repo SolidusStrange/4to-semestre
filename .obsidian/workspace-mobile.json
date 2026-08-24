@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "ba7242267ba1d454",
+    "type": "split",
+    "children": [
+      {
+        "id": "e47ca761c5cc0d09",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "96fe276422d6bc0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fullstack 2/HTML.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HTML"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fd3ecb5b24f2aca2",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7ddd04524a40f3a5",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "byModifiedTime",
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Explorador de archivos"
+        }
+      },
+      {
+        "id": "72d99904ef186bba",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Buscar"
+        }
+      },
+      {
+        "id": "25df1a5f99e9530f",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Etiquetas"
+        }
+      },
+      {
+        "id": "e753a673e341f434",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "Todas las propiedades"
+        }
+      },
+      {
+        "id": "95146bc62d0a2500",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Marcadores"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "40cc85cbeb89a5b8",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "4eb135e4567ac7c5",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Fullstack I/Archivos/Conceptos.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": true,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Enlaces entrantes"
+        }
+      },
+      {
+        "id": "f5ca2c57090881bc",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Fullstack I/Archivos/Introducción.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Enlaces salientes"
+        }
+      },
+      {
+        "id": "5878c376ff3f4858",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Fullstack 2/HTML.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Esquema"
+        }
+      },
+      {
+        "id": "a4ebe99c715f044f",
+        "type": "leaf",
+        "state": {
+          "type": "notebook-navigator-calendar",
+          "state": {},
+          "icon": "lucide-calendar-days",
+          "title": "Calendario"
+        }
+      }
+    ],
+    "currentTab": 2
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "markdown-importer:Abrir el importador de Markdown": false,
+      "bases:Crear nueva base": false,
+      "notebook-navigator:Navegador de Cuadernos": false,
+      "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
+      "mobile-pdf-exporter:Exportar PDF de vista previa": false
+    }
+  },
+  "active": "96fe276422d6bc0a",
+  "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-08-20 18.50.49.excalidraw.md",
+    "Sin título.md",
+    "Estadistica",
+    "Bienvenido.md",
+    "Taller de Base de Datos/Repaso PLSQL.pdf",
+    "Taller de Base de Datos/Repaso PLSQL.md",
+    "Excalidraw",
+    "Fullstack I/Hotel Fullstack I/ClienteResponseDTO.md",
+    "Fullstack I/Docker.md",
+    "Fullstack I/ms-ecommerce/ms-ecommerce.md",
+    "Fullstack I/Microservicios/Proyecto.md",
+    "Fullstack I/Entrega/Microservicios Fullstack 1/Docker ps.png",
+    "Fullstack I/Otros/DTOs y Comunicaciòn entre Microservicios.md",
+    "restcontroller.md",
+    "Fullstack I/Archivos/Introducción.md",
+    "Fullstack I/Otros/Docker.md",
+    "Fullstack I/Archivos/Swagger.md",
+    "Fullstack I/Archivos/Conceptos.md",
+    "Fullstack I/Archivos/Controller.md",
+    "Fullstack I/Archivos/Glosario.md",
+    "Fullstack I/Archivos/Service.md",
+    "Fullstack I/Archivos/Repository.md",
+    "Fullstack I/Entrega/Microservicios Fullstack 1/ms-ecommerce/ms-usuarios/src/main/java/com/shopconnect/ms_usuarios/dto/UsuarioDTO.java",
+    "Fullstack I/Entrega/Microservicios Fullstack 1/ms-ecommerce/ms-usuarios/src/main/java/com/shopconnect/ms_usuarios/dto/DireccionDTO.java",
+    "Fullstack I/Entrega/Microservicios Fullstack 1/ms-ecommerce/ms-usuarios/target/classes/com/shopconnect/ms_usuarios/dto/DireccionDTO.class",
+    "Fullstack I/Entrega/Microservicios Fullstack 1/ms-ecommerce/ms-usuarios/target/classes/com/shopconnect/ms_usuarios/dto/UsuarioDTO.class",
+    "Fullstack I/Entrega/Microservicios Fullstack 1/ms-ecommerce/ms-usuarios/src/main/java/com/shopconnect/ms_usuarios/dto/RolUsuarioDTO.java",
+    "Fullstack I/Entrega/Microservicios Fullstack 1/ms-ecommerce/ms-usuarios/target/classes/com/shopconnect/ms_usuarios/dto/RolUsuarioDTO.class",
+    "Fullstack I/Entrega/Microservicios Fullstack 1/ms-ecommerce/ms-usuarios/src/main/java/com/shopconnect/ms_usuarios/dto"
+  ]
+}
