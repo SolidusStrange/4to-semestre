@@ -11,14 +11,17 @@
             "id": "691aacfbb75da421",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Taller de Base de Datos/PLSQL - RECORD.md",
-                "mode": "source",
-                "source": false
+                "file": "Dashboard.canvas",
+                "viewState": {
+                  "x": -154.8142912698061,
+                  "y": -673.1424846808502,
+                  "zoom": -0.3333333333333333
+                }
               },
-              "icon": "lucide-file",
-              "title": "PLSQL - RECORD"
+              "icon": "lucide-layout-dashboard",
+              "title": "Dashboard"
             }
           }
         ]
@@ -160,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Taller de Base de Datos/PLSQL - RECORD.md",
+                "file": "Sin título.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -171,10 +174,27 @@
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "cbba8ca60f4eff3a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7e49cec8c1d647b",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator-calendar",
+              "state": {},
+              "icon": "lucide-calendar-days",
+              "title": "Calendario"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 288.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,8 +211,10 @@
       "mobile-pdf-exporter:Exportar PDF de vista previa": false
     }
   },
-  "active": "691aacfbb75da421",
+  "active": "f5aff5f0569067b8",
   "lastOpenFiles": [
+    "Fullstack-2/Clase 3/readme.md",
+    "Dashboard.canvas",
     "Taller de Base de Datos/Repaso PLSQL.md",
     "Taller de Base de Datos/PLSQL - RECORD.md",
     "Taller de Base de Datos/Repaso PLSQL.pdf",
