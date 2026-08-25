@@ -1,6 +1,5 @@
 {
 	"nodes":[
-		{"id":"243b5dd47a5d44e2","type":"file","file":"Aplicaciones-Moviles/IntroduccionJava/src/EmpleadoComun.java","x":1075,"y":-300,"width":400,"height":400},
 		{"id":"c5d5501bf3914b72","type":"file","file":"Aplicaciones-Moviles/IntroduccionJava/src/EmpleadoVentas.java","x":1520,"y":-300,"width":400,"height":400},
 		{"id":"4311c796d68bb745","type":"file","file":"Aplicaciones-Moviles/IntroduccionJava/src/GestorEmpleados.java","x":1965,"y":-300,"width":400,"height":400},
 		{"id":"542069aeb1e07df8","type":"file","file":"Aplicaciones-Moviles/IntroduccionJava/src/Main.java","x":2410,"y":-300,"width":400,"height":400},
@@ -15,14 +14,15 @@
 		{"id":"057abbef5e0ab358","type":"text","text":"Ciberseguridad\n","x":-480,"y":-900,"width":160,"height":50},
 		{"id":"24973b7bb1b82d5e","type":"text","text":"Estadistica Descriptiva","x":-300,"y":-900,"width":160,"height":50},
 		{"id":"8f085d28cb2971e9","type":"text","text":"- [ ] Repaso","x":-300,"y":-830,"width":160,"height":310},
-		{"id":"13f5bc5d65abfd7a","type":"text","text":"- [ ] Repaso","x":-100,"y":-830,"width":156,"height":311},
+		{"id":"13f5bc5d65abfd7a","type":"text","text":"- [x] Repaso 1","x":-100,"y":-830,"width":156,"height":311},
 		{"id":"d4d14013f07806f0","type":"text","text":"Fullstack 2","x":-100,"y":-900,"width":156,"height":50},
 		{"id":"d7e55a94f5d1c3cb","type":"text","text":"Competencias Digitales en Uso de IA","x":76,"y":-905,"width":160,"height":55},
 		{"id":"18f04c00281aea55","type":"text","text":"- [ ] Revisar contenido AVA ","x":76,"y":-830,"width":156,"height":310},
 		{"id":"8c55132e1f082a03","type":"text","text":"Etica","x":260,"y":-907,"width":140,"height":57},
 		{"id":"cf894dff6ff353ed","type":"text","text":"- [ ] Repaso","x":260,"y":-820,"width":140,"height":300},
 		{"id":"1a71bae69e9424e4","type":"text","text":"Inglés Intermedio I","x":420,"y":-910,"width":180,"height":60},
-		{"id":"32520b2af133ba39","type":"text","text":"- [ ] Repaso","x":420,"y":-820,"width":180,"height":300}
+		{"id":"32520b2af133ba39","type":"text","text":"- [ ] Repaso","x":420,"y":-820,"width":180,"height":300},
+		{"id":"243b5dd47a5d44e2","type":"file","file":"Aplicaciones-Moviles/IntroduccionJava/src/EmpleadoComun.java","x":1120,"y":-300,"width":400,"height":400}
 	],
 	"edges":[]
 }

@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"243b5dd47a5d44e2","x":1075,"y":-300,"width":400,"height":400,"type":"file","file":"Aplicaciones-Moviles/IntroduccionJava/src/EmpleadoComun.java"},
+		{"id":"c5d5501bf3914b72","x":1520,"y":-300,"width":400,"height":400,"type":"file","file":"Aplicaciones-Moviles/IntroduccionJava/src/EmpleadoVentas.java"},
+		{"id":"4311c796d68bb745","x":1965,"y":-300,"width":400,"height":400,"type":"file","file":"Aplicaciones-Moviles/IntroduccionJava/src/GestorEmpleados.java"},
+		{"id":"542069aeb1e07df8","x":2410,"y":-300,"width":400,"height":400,"type":"file","file":"Aplicaciones-Moviles/IntroduccionJava/src/Main.java"},
+		{"id":"fae48bb2b22b9bcc","x":2855,"y":-300,"width":400,"height":400,"type":"file","file":"Aplicaciones-Moviles/IntroduccionJava/src/Pagable.java"},
+		{"id":"7d9b364a0225bcac","x":3300,"y":-300,"width":400,"height":400,"type":"file","file":"Aplicaciones-Moviles/IntroduccionJava/readme.md"},
+		{"id":"52a2872041ee00be","x":3745,"y":-300,"width":400,"height":400,"type":"file","file":"Aplicaciones-Moviles/README.md"},
+		{"id":"2b4a23cdd035d0b3","x":-792,"y":-718,"width":312,"height":50,"type":"text","text":"Desarrollo Aplicaciones Moviles\n"},
+		{"id":"d4d14013f07806f0","x":-792,"y":-320,"width":312,"height":50,"type":"text","text":"Fullstack 2"},
+		{"id":"1a71bae69e9424e4","x":-792,"y":-20,"width":312,"height":60,"type":"text","text":"Inglés Intermedio I"},
+		{"id":"8c55132e1f082a03","x":-792,"y":-120,"width":312,"height":60,"type":"text","text":"Etica"},
+		{"id":"d7e55a94f5d1c3cb","x":-792,"y":-220,"width":312,"height":60,"type":"text","text":"Competencias Digitales en Uso de IA"},
+		{"id":"9158ec5946c2499c","type":"text","text":"Clase 2-3\n- [ ] Ejercicio 1 - Java\n- [ ] Ejercicios 2 -  Kotlin","x":-440,"y":-749,"width":280,"height":113},
+		{"id":"2735f7c035921010","x":-792,"y":-595,"width":312,"height":50,"type":"text","text":"Taller de Base de Datos"},
+		{"id":"057abbef5e0ab358","x":-792,"y":-495,"width":312,"height":50,"type":"text","text":"Ciberseguridad\n"},
+		{"id":"e0905fd8bf0153b1","type":"text","text":"- [ ] Repaso","x":-440,"y":-602,"width":280,"height":65},
+		{"id":"24973b7bb1b82d5e","type":"text","text":"Estadistica Descriptiva","x":-792,"y":-405,"width":312,"height":50},
+		{"id":"7316c89ba600537b","type":"text","text":"- [ ] Tarea entrega 29/07","x":-440,"y":-498,"width":280,"height":57},
+		{"id":"8f085d28cb2971e9","type":"text","text":"- [ ] Repaso","x":-440,"y":-412,"width":280,"height":65},
+		{"id":"13f5bc5d65abfd7a","type":"text","text":"- [ ] Repaso","x":-440,"y":-327,"width":280,"height":64},
+		{"id":"18f04c00281aea55","x":-440,"y":-225,"width":280,"height":70,"type":"text","text":"- [ ] Revisar contenido AVA "},
+		{"id":"cf894dff6ff353ed","type":"text","text":"- [ ] Repaso","x":-440,"y":-125,"width":280,"height":70},
+		{"id":"32520b2af133ba39","x":-440,"y":-25,"width":280,"height":70,"type":"text","text":"- [ ] Repaso"}
+	],
+	"edges":[
+		{"id":"43f7fe437ada5ebb","fromNode":"2b4a23cdd035d0b3","fromSide":"right","toNode":"9158ec5946c2499c","toSide":"left"},
+		{"id":"e347fcb624c953cf","fromNode":"2735f7c035921010","fromSide":"right","toNode":"e0905fd8bf0153b1","toSide":"left"},
+		{"id":"39f75ade64b9fda3","fromNode":"057abbef5e0ab358","fromSide":"right","toNode":"7316c89ba600537b","toSide":"left"},
+		{"id":"b4206330cd23a010","fromNode":"24973b7bb1b82d5e","fromSide":"right","toNode":"8f085d28cb2971e9","toSide":"left"},
+		{"id":"fc2319fff60ce178","fromNode":"d4d14013f07806f0","fromSide":"right","toNode":"13f5bc5d65abfd7a","toSide":"left"},
+		{"id":"992aa970e1a3c6a2","fromNode":"d7e55a94f5d1c3cb","fromSide":"right","toNode":"18f04c00281aea55","toSide":"left"},
+		{"id":"c3bd4a233ad5678a","fromNode":"8c55132e1f082a03","fromSide":"right","toNode":"cf894dff6ff353ed","toSide":"left"}
+	]
+}

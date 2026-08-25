@@ -6,6 +6,7 @@ public class Usuario {
     }
 
     public String getRut() {
+
         return rut;
     }
 

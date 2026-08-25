@@ -9,7 +9,16 @@ public class EmpleadoComun extends Empleado{
     }
 
     @Override
-    String tipoContrato() {
+    public String tipoContrato() {
         return "Indefinido";
     }
+
+    @Override
+    public String toString() {
+        return "RUT: " + getRut()
+            + ", Sueldo base: " + getSueldoBase()
+            + ", Cargo: " + getCargo()
+            + ", Tipo de Contrato: " + tipoContrato();
+    }
 }
+

@@ -25,7 +25,7 @@ public abstract class Empleado extends Usuario implements Pagable {
     }
 
     // Metodo abstracto propio de esta clase abstracta
-    abstract String tipoContrato();
+    public abstract String tipoContrato();
 
 
 

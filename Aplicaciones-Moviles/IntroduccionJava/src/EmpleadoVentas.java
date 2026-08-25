@@ -25,12 +25,27 @@ public class EmpleadoVentas extends Empleado {
     }
 
     @Override
-    public double calcularSueldo() {
+    public double calcularSueldo()
+    {
         return getSueldoBase() + comision;
     }
 
     @Override
-    String tipoContrato() {
+    public String tipoContrato()
+    {
         return "Por comisión";
     }
+
+    @Override
+    public String toString() {
+        return "RUT: " + getRut()
+                + ", Sueldo base: " + getSueldoBase()
+                + ", Cargo: " + getCargo()
+                + ", Comisión: " + comision
+                + ", Sueldo liquido: " + calcularSueldo()
+                + ", Meta comisión: " + metaComision
+                + ", Tipo de Contrato: "+ tipoContrato();
+    }
 }
+
+
