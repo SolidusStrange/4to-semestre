@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- En qué lenguaje está. Si está en inglés dará caracteres erroneos. -->
+<html lang="en">
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página -->
+    <title>Document</title>
+    <!-- Relacionar con CSS -->
+    <link rel="stylesheet" href="estilo.css">  
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <nav class ="navbar">
+        <div class= "tituloNav">
+            Titulo web 
+        </div>
+        <div class="menu">
+            <a href="tabla.html"> Inicio</a>
+            <a href=""> formulario </a>
+            <a style="color: red" href="login.html"> Login </a>
+            <a href=""> Tabla </a>
+        </div>
+
+
+    </nav>
+
+    <!-- FIN NAVBAR -->
+    <div class="formularioContenedor">
+
+
+        <form class="formulariostyle" id="formulario">
+            <h1 class="titulo">Registro de Usuario</h1>
+            <hr style=" margin-bottom: 30px;"> 
+
+        <!-- nombre y apellido -->
+        <div class="fila">
+            <div class="campo">
+                <label> Nombre </label>
+                <input type="text" id="nombre" placeholder="Juan"> 
+            </div>
+
+            <div class="campo">
+                <label> Apellido </label>
+                <input type="text" id="apellido" placeholder="Perez">
+            </div>
+        </div>
+
+        <!-- datos de contacto -->
+        <div class="fila">
+            <div class="campo">
+                <label> Telefono </label>
+                <input type="text" id="telefono" placeholder="+56976644785"> 
+            </div>
+
+            <div class="campo">
+                <label> Correo </label>
+                <input type="text" id="correo" placeholder="ejemplo@gmail.com">
+            </div>
+
+            <div class="campo">
+                <label> Pais </label>
+                <select id="pais">
+                    <option value=""> Seleccione su pais</option>
+                    <option value="chile"> Chile</option>
+                    <option value="perú"> Peru</option>
+                    <option value="argentina"> Argentina</option>
+                    <option value="brasil"> Brasil</option>
+                    <option value="bolivia"> Bolivia</option>
+                    <option value="uruguay"> Argentina</option>
+                </select>
+            </div>
+        </div>
+
+        <div class= "botones">
+            <button type="submit" class="botonGuardar">Guardar </button>
+            <button type="submit" class="botonLimpiar">Limpiar </button>
+        </div>
+
+    </div>
+
+        
+    </form>
+    <!-- Relacionar con JavaScript -->
+    <script src="funcionalidades.js"></script>
+</body>
+
+
+</html>

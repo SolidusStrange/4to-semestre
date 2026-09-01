@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">  
+</head>
+<body>
+    <div class="formularioLogin">
+        <form class="contenedorLogin" id="formLogin">
+            <h1 class="tituloLogin">Inicio de Sesión</h1>
+            <hr style=" margin-bottom: 30px;"> 
+
+        <!-- nombre y contraseña -->
+        <div class="login">
+            <div class="usuarioLogin">
+                <label> Usuario </label>
+                <input type="text" id="usuario" placeholder="pedrito666xxx"> 
+
+
+            </div>
+            <div class="passwordLogin">
+                <label> Password </label>
+                <input type="password" id="password"> 
+            </div>
+        </div>
+
+        <div class="botonesLogin">
+            <button type="submit" class="botonIngresar">Ingresar</button>
+            <button type="button" onclick= "window.location.href='index.html' " class="botonRegistrar">Registrar</button>
+        
+        </div>                
+        
+
+        </form>
+    </div>
+
+    <script src="login.js"></script>
+
+</body>
+</html>
