@@ -1,0 +1,128 @@
+CURSOR EXPLÍCITO 
+
+PRODUCTO 1 		: 	N FABRICANTE
+#CODIGO      			#CODIGO_FABRICANTE
+FK CODIGO_FABRICANTE
+
+P				F
+
+----------------------- CURSOR EXPLICITO -------------------------------
+-- CREAMOS TABLAS
+
+CREATE TABLE PRODUCTO(
+    codigo NUMBER PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    precio NUMBER NOT NULL,
+    codigo_fabricante NUMBER NOT NULL
+);
+
+CREATE TABLE FABRICANTE(
+    codigo_fabricante NUMBER PRIMARY KEY,
+    nombre_fabricante VARCHAR2(50) NOT NULL
+
+
+);
+
+
+-- INSERTAMOS REGISTROS
+INSERT INTO PRODUCTO VALUES(1, 'Monitor', 120000, 101);
+INSERT INTO PRODUCTO VALUES(2, 'Mouse', 10000, 102);
+INSERT INTO PRODUCTO VALUES(3, 'Teclado', 15000, 103);
+
+
+INSERT INTO FABRICANTE VALUES(101, 'Ignacio Arntz');
+INSERT INTO FABRICANTE VALUES(102, 'Andres Mendoza');
+INSERT INTO FABRICANTE VALUES(103, 'Simon Gonzalez');
+
+
+-- GENERAMOS BLOQUE ANONIMO
+
+DECLARE
+    cursor c_productos_fabricante is
+        SELECT 
+            p.codigo,
+            p.nombre,
+            p.precio,
+            p.codigo_fabricante,
+            f.nombre_fabricante
+        
+            FROM PRODUCTO P, FABRICANTE F
+            WHERE p.codigo_fabricante = f.codigo_fabricante
+            ORDER BY p.precio;
+
+BEGIN
+    -- Trabaja con el cursor implicitamente. No es necesario especificar OPEN, CLOSE O FETCH
+    /*
+    for registro in c_productos_fabricante
+        loop
+            dbms_output.put_line('Información producto código: ' || registro.codigo);
+            dbms_output.put_line('Información producto código: ' || registro.nombre);
+            dbms_output.put_line('Información producto código: ' || registro.precio);
+            dbms_output.put_line('Información producto código: ' || registro.codigo_fabricante);
+            dbms_output.put_line('Información producto código: ' || registro.nombre_fabricante);
+        end loop;
+    */
+
+END;
+
+
+/*
+SELECT * FROM PRODUCTO P
+JOIN FABRICANTE F
+    ON p.codigo_fabricante = f.codigo_fabricante;  
+    */ 
+
+
+---------------------------- EJERCICIO 1 ------------------------------------
+Ejercicio
+- Generar modelo que permita almacenar datos de alumno y asignatura asociada al alumno. 
+- Aplicar consulta JOIN y usar cursor para mostrar los resultados.
+
+
+-- 1. Crear tablas
+DROP TABLE ESTUDIANTE;
+
+CREATE TABLE ESTUDIANTE(
+    rut VARCHAR2(12) PRIMARY KEY,
+    primer_nombre VARCHAR2(50) NOT NULL,
+    cod_asignatura NUMBER NOT NULL
+);    
+
+CREATE TABLE ASIGNATURA(
+    cod_asignatura NUMBER NOT NULL,
+    nombre_asignatura VARCHAR2(50) NOT NULL
+);
+
+
+-- 2. INSERTAR REGISTROS
+INSERT INTO ESTUDIANTE VALUES('1859456-6','JUAN', 101);
+INSERT INTO ESTUDIANTE VALUES('1859432-6','PEDRO', 102);
+INSERT INTO ESTUDIANTE VALUES('20595987-5','GUIDOBERTO', 103);
+
+INSERT INTO ASIGNATURA VALUES(101,'LENGUAJE');
+INSERT INTO ASIGNATURA VALUES(102,'MATEMATICAS');
+
+-- 3. GENERAMOS BLOQUE ANONIMO
+
+DECLARE
+    cursor c_estudiante_asignatura is
+        SELECT
+            e.rut,
+            e.primer_nombre,
+            e.cod_asignatura,
+            nvl(a.nombre_asignatura, 'SIN ASIGNATURA') AS nombre_asignatura
+        FROM ESTUDIANTE e
+        LEFT JOIN ASIGNATURA a 
+        ON e.cod_asignatura = a.cod_asignatura;
+BEGIN
+    
+    FOR registro in c_estudiante_asignatura
+        LOOP
+            dbms_output.put_line('Informacion estudiante asignatura: ' || registro.rut);
+            dbms_output.put_line('Informacion estudiante asignatura: ' || registro.primer_nombre);
+            dbms_output.put_line('Informacion estudiante asignatura: ' || registro.cod_asignatura);
+            dbms_output.put_line('Informacion estudiante asignatura: ' || registro.nombre_asignatura);
+        END LOOP;
+
+END;
+

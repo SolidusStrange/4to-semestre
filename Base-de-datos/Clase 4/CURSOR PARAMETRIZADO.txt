@@ -1,0 +1,37 @@
+CURSOR PARAMETRIZADO
+
+- cursor que recibe un parámetro que sirve para seleccionar un dato específico en base al parámetro especificado.
+
+-------------------------------- EJERCICIO ---------------------------------
+
+DECLARE 
+    CURSOR c_producto_fabricante(p_cod_fab NUMBER) IS    
+        SELECT *
+        FROM producto
+        WHERE codigo_fabricante = p_cod_fab
+        ORDER BY precio;
+        v_producto producto%rowtype; 
+        v_codigo_fabricante fabricante.codigo_fabricante%type := &codigo;
+BEGIN
+    open c_producto_fabricante(v_codigo_fabricante);   
+    
+        loop
+            fetch c_producto_fabricante into v_producto;
+            exit when c_producto_fabricante%NOTFOUND;
+                dbms_output.put_line(v_producto.codigo);
+                dbms_output.put_line(v_producto.nombre);
+                dbms_output.put_line(v_producto.precio);
+                
+            
+        end loop;
+    close c_producto_fabricante;          
+  
+END;    
+
+PARA PRUEBA
+
+- EJERCITAR JOIN SIMPLE
+- FILTROS
+- CONSULTA SIMPLE
+- VARRAY, CURSOS EXPLICITOS, CURSORES PARAMETRIZADOS, VARRAY 
+

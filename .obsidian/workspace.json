@@ -11,20 +11,32 @@
             "id": "691aacfbb75da421",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Dashboard.canvas",
-                "viewState": {
-                  "x": -154.8142912698061,
-                  "y": -907.4877999612966,
-                  "zoom": -0.3333333333333333
-                }
+                "file": "Base-de-datos/Clase 4/readme.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Dashboard"
+              "icon": "lucide-file",
+              "title": "readme"
+            }
+          },
+          {
+            "id": "f32e72c4d1e7e984",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Base-de-datos/Clase 3/Base_de_Datos_PL_SQL_Cursores_Apuntes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Base_de_Datos_PL_SQL_Cursores_Apuntes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -211,10 +223,12 @@
       "mobile-pdf-exporter:Exportar PDF de vista previa": false
     }
   },
-  "active": "f5aff5f0569067b8",
+  "active": "f32e72c4d1e7e984",
   "lastOpenFiles": [
-    "Fullstack-2/Clase 3/readme.md",
+    "Base-de-datos/Clase 4/readme.pdf",
+    "Base-de-datos/Clase 4/readme.md",
     "Dashboard.canvas",
+    "Fullstack-2/Clase 3/readme.md",
     "Taller de Base de Datos/Repaso PLSQL.md",
     "Taller de Base de Datos/PLSQL - RECORD.md",
     "Taller de Base de Datos/Repaso PLSQL.pdf",
