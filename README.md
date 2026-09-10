@@ -1,4 +1,5 @@
-# 4to Semestre
+..
+.to Semestre
 
 Repositorio con mis apuntes, material de estudio y ejercicios correspondientes al **4to semestre**.
 

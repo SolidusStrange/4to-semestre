@@ -1,3 +1,4 @@
+```
 # Ejercicios de Repaso — PL/SQL
 
 > Ejercicios progresivos basados en las clases de la unidad de PL/SQL.
@@ -25,6 +26,20 @@ Ciudad: Santiago
 ```
 
 **Practica:** `DECLARE`, variables, asignación y `DBMS_OUTPUT`.
+
+#### Resultado
+```SQL
+DECLARE
+    v_nombre VARCHAR2(30) := 'Juan';
+    v_edad number(2) := 25;
+    v_ciudad VARCHAR2(30) := 'Santiago';
+ 
+BEGIN 
+    dbms_output.put_line('Nombre: ' || v_nombre);
+    dbms_output.put_line('Edad: ' || v_edad);
+    dbms_output.put_line('Ciudad: ' || v_ciudad);
+END;
+```
 
 ---
 
@@ -63,6 +78,32 @@ Debes utilizar al menos un `IF / ELSE`.
 
 **Practica:** variables de sustitución, operaciones matemáticas, `IF` y salida por consola.
 
+### Resultado
+
+```SQL
+DECLARE
+    v_number_1 NUMBER(9) := &var_num_1;
+    v_number_2 NUMBER(9) := &var_num_2;
+
+
+BEGIN
+    dbms_output.put_line('Número 1: ' ||  v_number_1);    
+    dbms_output.put_line('Número 2: ' ||  v_number_2);
+    
+    dbms_output.put_line('Suma: ' || (v_number_1 + v_number_2));    
+    dbms_output.put_line('Resta: ' || (v_number_1 - v_number_2));    
+    dbms_output.put_line('Multiplicación: ' || (v_number_1 * v_number_2));  
+    dbms_output.put_line('División: ' || (v_number_1 / v_number_2));  
+    IF v_number_1 > v_number_2 THEN
+        dbms_output.put_line('El numero mayor es: ' || v_number_1);
+    ELSIF v_number_2 > v_number_1 THEN
+        dbms_output.put_line('El numero mayor es: ' || v_number_2);
+    ELSE
+        dbms_output.put_line('Ambos números son iguales');
+    END IF;    
+END;
+```
+
 ---
 
 ### Ejercicio 3 — Sistema de evaluación
@@ -85,6 +126,26 @@ Además:
 - Luego realiza una segunda versión utilizando `CASE`.
 
 **Practica:** entrada de datos, condiciones múltiples, `IF` y `CASE`.
+
+### Resultado
+```SQL
+DECLARE
+    v_nota_1 NUMBER(9) := &var_nota_1;
+    v_nota_2 NUMBER(9) := &var_nota_2;
+    v_nota_promedio NUMBER(9, 2);
+BEGIN
+    v_nota_promedio := (v_nota_1 + v_nota_2)/2;
+    dbms_output.put_line(v_nota_promedio);
+   
+    CASE 
+        WHEN  v_nota_promedio < 4.0 THEN dbms_output.put_line('Reprobado');
+        WHEN  v_nota_promedio < 5.0 THEN dbms_output.put_line('Aprobado');
+        WHEN  v_nota_promedio < 6.0 THEN dbms_output.put_line('Bueno');
+        WHEN  v_nota_promedio <= 7.0 THEN dbms_output.put_line('Excelente');
+    END CASE;
+    
+END;
+```
 
 ---
 
@@ -539,4 +600,6 @@ Contadores y acumuladores
 VARRAY
    ↓
 Procesamiento de estructuras
+```
+
 ```

@@ -14,8 +14,8 @@
   "pageOrientation": "portrait",
   "colorMode": "color",
   "contentScalePercent": 100,
-  "imageRasterScale": 3,
-  "currentPageWidthPx": 1576,
+  "imageRasterScale": 1.5,
+  "currentPageWidthPx": 960,
   "currentPageHeightPx": 968.015625,
   "zipEmbedDepth": 0,
   "previewEnabled": true
