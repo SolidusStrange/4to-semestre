@@ -178,7 +178,7 @@ Finalmente utiliza un `IF` para determinar si está aprobado.
 **Practica:** `TYPE ... IS RECORD`, variables `RECORD`, atributos y acceso mediante `.`.
 
 #### Resolución
-```PLSQL
+```SQL
 -- CONSULTA
 DECLARE
 	-- CREAMOS UN RECORD QUE ALMACENA LOS TIPOS DEFINIDOS
@@ -258,7 +258,7 @@ EMPLEADO.SUELDO%TYPE
 
 **Practica:** `RECORD`, `%TYPE`, acceso a atributos y operaciones.
 
-```PLSQL
+```SQL
 -- CREAMOS TABLA
 CREATE TABLE EMPLEADO(
     ID_EMPLEADO VARCHAR2(10) PRIMARY KEY,
@@ -307,7 +307,7 @@ Utiliza la tabla `EMPLEADO`.
 
 Crea:
 
-```plsql
+```SQL
 v_empleado EMPLEADO%ROWTYPE;
 ```
 
@@ -330,7 +330,7 @@ Si no
 **Practica:** `SELECT INTO`, `%ROWTYPE`, acceso a columnas mediante `.`, `IF` y `DBMS_OUTPUT`.
 
 #### RESPUESTA
-```PLSQL
+```SQL
 -- POBLAMOS DATOS EN TABLA EMPLEADO
 INSERT INTO EMPLEADO(ID_EMPLEADO, NOMBRE, SUELDO)
 VALUES ('3', 'JUAN', 600000);
@@ -427,7 +427,7 @@ BEGIN
 END;
 ```
 #### Respuesta
-```plsql
+```SQL
 DECLARE
     CURSOR C_EMPLEADOS IS
         SELECT *
@@ -488,7 +488,7 @@ DBMS_OUTPUT
 ```
 
 #### Respuesta
-```PLSQL
+```SQL
 DECLARE
     CURSOR C_EMPLEADOS IS
         SELECT *
@@ -561,7 +561,7 @@ Estas variables deberán actualizarse mientras el cursor recorre cada fila.
 **Objetivo:** comprender qué ocurre con cada registro durante la ejecución de un cursor y combinar cursores con lógica de programación.
 
 #### Respuesta
-```PLSQL
+```SQL
 
 DECLARE
     CURSOR C_EMPLEADOS IS
@@ -651,7 +651,7 @@ Elemento 5: 50
 **Practica:** declaración de `VARRAY`, constructor, índices y `FOR`.
 
 #### Respuesta
-```plsql
+```SQL
 DECLARE
     TYPE numeros IS VARRAY(5) OF NUMBER;
 
@@ -701,7 +701,7 @@ LENGTH()
 ```
 
 #### Respuesta
-```PLSQL
+```SQL
 DECLARE
     TYPE nombres IS VARRAY(5) OF VARCHAR2(30);
 
@@ -768,7 +768,7 @@ Menor: 10
 - Recorrido de elementos.
 
 #### Respuesta
-```PLSQL
+```SQL
 DECLARE
     TYPE numeros IS VARRAY(10) OF NUMBER;
 
