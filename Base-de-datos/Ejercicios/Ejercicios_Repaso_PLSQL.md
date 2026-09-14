@@ -28,7 +28,7 @@ Ciudad: Santiago
 **Practica:** `DECLARE`, variables, asignación y `DBMS_OUTPUT`.
 
 #### Resultado
-```SQL
+```PLSQL
 DECLARE
     v_nombre VARCHAR2(30) := 'Juan';
     v_edad number(2) := 25;
@@ -80,7 +80,7 @@ Debes utilizar al menos un `IF / ELSE`.
 
 ### Resultado
 
-```SQL
+```PLSQL
 DECLARE
     v_number_1 NUMBER(9) := &var_num_1;
     v_number_2 NUMBER(9) := &var_num_2;
@@ -128,7 +128,7 @@ Además:
 **Practica:** entrada de datos, condiciones múltiples, `IF` y `CASE`.
 
 ### Resultado
-```SQL
+```PLSQL
 DECLARE
     v_nota_1 NUMBER(9) := &var_nota_1;
     v_nota_2 NUMBER(9) := &var_nota_2;
@@ -178,7 +178,7 @@ Finalmente utiliza un `IF` para determinar si está aprobado.
 **Practica:** `TYPE ... IS RECORD`, variables `RECORD`, atributos y acceso mediante `.`.
 
 #### Resolución
-```SQL
+```PLSQL
 -- CONSULTA
 DECLARE
 	-- CREAMOS UN RECORD QUE ALMACENA LOS TIPOS DEFINIDOS
@@ -246,19 +246,19 @@ Sueldo con aumento: 660000
 
 **Objetivo adicional:** comprender la diferencia entre declarar:
 
-```sql
+```PLSQL
 NUMBER
 ```
 
 y:
 
-```sql
+```PLSQL
 EMPLEADO.SUELDO%TYPE
 ```
 
 **Practica:** `RECORD`, `%TYPE`, acceso a atributos y operaciones.
 
-```SQL
+```PLSQL
 -- CREAMOS TABLA
 CREATE TABLE EMPLEADO(
     ID_EMPLEADO VARCHAR2(10) PRIMARY KEY,
@@ -307,7 +307,7 @@ Utiliza la tabla `EMPLEADO`.
 
 Crea:
 
-```SQL
+```PLSQL
 v_empleado EMPLEADO%ROWTYPE;
 ```
 
@@ -330,7 +330,7 @@ Si no
 **Practica:** `SELECT INTO`, `%ROWTYPE`, acceso a columnas mediante `.`, `IF` y `DBMS_OUTPUT`.
 
 #### RESPUESTA
-```SQL
+```PLSQL
 -- POBLAMOS DATOS EN TABLA EMPLEADO
 INSERT INTO EMPLEADO(ID_EMPLEADO, NOMBRE, SUELDO)
 VALUES ('3', 'JUAN', 600000);
@@ -372,14 +372,14 @@ END;
 
 Crea un cursor que consulte todos los empleados:
 
-```sql
+```PLSQL
 SELECT *
 FROM EMPLEADO;
 ```
 
 Utiliza:
 
-```sql
+```PLSQL
 EMPLEADO%ROWTYPE
 ```
 
@@ -427,7 +427,7 @@ BEGIN
 END;
 ```
 #### Respuesta
-```SQL
+```PLSQL
 DECLARE
     CURSOR C_EMPLEADOS IS
         SELECT *
@@ -488,7 +488,7 @@ DBMS_OUTPUT
 ```
 
 #### Respuesta
-```SQL
+```PLSQL
 DECLARE
     CURSOR C_EMPLEADOS IS
         SELECT *
@@ -561,7 +561,7 @@ Estas variables deberán actualizarse mientras el cursor recorre cada fila.
 **Objetivo:** comprender qué ocurre con cada registro durante la ejecución de un cursor y combinar cursores con lógica de programación.
 
 #### Respuesta
-```SQL
+```PLSQL
 
 DECLARE
     CURSOR C_EMPLEADOS IS
@@ -651,7 +651,7 @@ Elemento 5: 50
 **Practica:** declaración de `VARRAY`, constructor, índices y `FOR`.
 
 #### Respuesta
-```SQL
+```PLSQL
 DECLARE
     TYPE numeros IS VARRAY(5) OF NUMBER;
 
@@ -701,7 +701,7 @@ LENGTH()
 ```
 
 #### Respuesta
-```SQL
+```PLSQL
 DECLARE
     TYPE nombres IS VARRAY(5) OF VARCHAR2(30);
 
@@ -768,7 +768,7 @@ Menor: 10
 - Recorrido de elementos.
 
 #### Respuesta
-```SQL
+```PLSQL
 DECLARE
     TYPE numeros IS VARRAY(10) OF NUMBER;
 
